@@ -1,4 +1,3 @@
-# FunctionPage.vue
 <template>
   <div class="htmlClass">
     <h1>{{ title }}</h1>
