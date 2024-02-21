@@ -15,12 +15,12 @@ it('check text content to be as defined in variable', () => {
   const wrapper = shallowMount(FunctionPage, {
     data () {
       return {
-        title: 'I love Vue.'
+        title: 'Chayanat Chuanmuangphan 6404101309'
       }
     }
   })
   let header = wrapper.find('.htmlClass h1')
-  expect(header.text()).toBe('I love Vue.')
+  expect(header.text()).toBe('Chayanat Chuanmuangphan 6404101309')
 })
 
 test('should show the form element on the user output', () => {
